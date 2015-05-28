@@ -1,7 +1,7 @@
 (function() {
     var express = require('express'),
         router = express.Router()
-        storeHandler = require('./handlers/store');
+        storeHandler = require('./../handlers/store');
 
     router.get('/v1/store', storeHandler.getAll);
     router.get('/v1/store/:key', storeHandler.getValue);
