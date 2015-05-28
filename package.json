@@ -1,0 +1,32 @@
+{
+  "name": "keystore",
+  "version": "0.1.0",
+  "description": "A simple RESTful key/value store",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha -R spec",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jghowe/keystore.git"
+  },
+  "author": "Jeffrey Howe <jghowe@gmail.com>",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/jghowe/keystore/issues"
+  },
+  "homepage": "https://github.com/jghowe/keystore#readme",
+  "dependencies": {
+    "async": "^1.0.0",
+    "body-parser": "^1.12.4",
+    "express": "^4.12.4",
+    "lodash": "^3.9.3",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.14.1"
+  }
+}
