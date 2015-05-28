@@ -28,7 +28,13 @@ REDIS_HOST=localhost
 REDIS_PORT=6379
 ```
 
-If `REDIS_HOST` is not defined, an in-memory (not persistent) data-store is used instead.
+If `REDIS_HOST` is not defined, an in-memory (non persistent) data-store is used instead.
+
+To start the service:
+
+```
+npm start
+```
 
 ## Usage
 
@@ -67,6 +73,8 @@ curl -X DELETE http://localhost:3000/v1/store/foo
 ```
 
 ## Demonstration
+
+A quick demonstration script is available which illustrates all of the above features (must run `npm start` first):
 
 ```
 ./demo.sh
